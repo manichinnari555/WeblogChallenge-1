@@ -6,7 +6,7 @@
 // The solution was done via Spark RDD APIs.I will pacakge the code using Maven once i get the more time  
 // instead of just being a spark-shell script I would create a deployable application and associated unit tests.
 //
-// The solution assumes that sample.log.gz is stored in root HDFS folder
+// The solution assumes that 2015_07_22_mktplace_shop_web_log_sample.log.gz is stored in root HDFS folder
 //
 // The solution publishes to root HDFS folder a single part file for each of:
 //  - unique_session_hits (911728 unique session hits)
